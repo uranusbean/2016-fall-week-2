@@ -1,0 +1,87 @@
+/* style.css */
+
+html,body,h1,h2,h3,p,img,ul,li,nav,div{
+	padding:0;
+	margin:0;
+	list-style:none;
+	/*border:1px solid #000;*/ 
+}
+
+/* Global styles */
+body{
+	background:rgb(50,50,50);
+	color:#fff;
+	font-family:"Roboto", sans-serif;
+}
+a{
+	color:#fff;
+	text-decoration: none;
+}
+
+/* Size and positioning */
+.container{
+	width:1170px;
+	margin:0 auto;
+	position:relative;
+}
+.container .projects{
+	width:1200px;
+	margin-left:-15px;
+}
+	.container .project{
+		width:370px;
+		float:left;
+		margin: 10px 15px;
+	}
+		.container .project img{
+			width:100%;
+			height:auto;
+		}
+.container .special-content{
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:100px;
+	left:-50px;
+	background:#03afeb;
+	border-radius:200px;
+}
+
+/* Fonts */
+body{
+	font-size:16px;
+}
+h1{
+	font-size:1.8em;
+	font-weight:bold;
+	margin:10px 0 30px;
+}
+h2{
+	font-size:1.4em;
+	font-weight:normal;
+	margin:10px 0 20px;
+}
+
+
+/* .special-content */
+.special-content p{
+	text-align:center;
+	padding:30px;
+}
+
+/* nav */
+.nav-bar{
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:50px;
+	margin:10px 0;
+}
+	.nav-bar ul{
+		height:100%; /* inherits 50px */
+	}
+		.nav-bar ul li{
+			width:100px;
+			height:100%; /* inherits 50px */
+			float:left;
+			line-height:50px;
+		}
