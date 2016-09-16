@@ -3,12 +3,49 @@
 
 /* Global styles */
 /* Background, color, font-family */
+body {
+    background: rgb(50,50,50);
+    color: white;
+}
 
+a{
+    color: white;
+}
 
+.project>h2{
+    color: red;
+}
 /* Layout */
+.container {
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+}
 
+.project {
+    width: 32%;
+    margin-right: 5PX;
+    position: relative;
+    display: inline-block;
+}
+
+.project img {
+    width: 100%;
+}
 
 /* For .special-content */
+.special-content {
+    border-radius: 100%;
+	width: 120px;
+	height: 120px; 
+	background: #03afeb;
+	left: 50px;
+	top: 150px;
+	position: fixed;
+}
 
-
+.special-content p{
+    text-align: center;
+    padding: 20px;
+}
 /* Navigation bar */
